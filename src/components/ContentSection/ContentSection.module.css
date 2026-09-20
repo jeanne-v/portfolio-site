@@ -1,0 +1,25 @@
+.section {
+  padding: 56px var(--padding-x);
+}
+
+.content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.title,
+.sub-title {
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  font-family: var(--accent-font);
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 1;
+}
