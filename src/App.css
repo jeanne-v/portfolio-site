@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Youngest";
+  src: url("./assets/Youngest.woff2");
+}
+
+:root {
+  --body-font: "Inter", sans-serif;
+  --accent-font: "Youngest", serif;
+
+  --primary-bg-color: #f5f0f4;
+  --secondary-bg-color: #ffffff;
+  --primary-accent-color: #5f3597;
+  --secondary-accent-color: #ebdcf0;
+  --primary-text-color: #453d56;
+  --secondary-text-color: #625a73;
+  --purple-bg-text-color: #41325d;
+
+  --max-width: 1200px;
+  --padding-x: 24px;
+}
+
+@media (min-width: 1000px) {
+  :root {
+    --padding-x: 48px;
+  }
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: var(--body-font);
+}
