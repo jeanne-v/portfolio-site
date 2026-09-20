@@ -23,3 +23,7 @@
   font-size: 56px;
   line-height: 1;
 }
+
+.sub-title {
+  color: var(--secondary-text-color);
+}
