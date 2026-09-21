@@ -37,6 +37,10 @@
   left: 0;
 }
 
+.stars-circle {
+  animation: rotate 10s linear infinite;
+}
+
 .title,
 .sub-title {
   text-align: center;
@@ -60,5 +64,15 @@
   .title {
     font-size: 112px;
     line-height: 112px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
