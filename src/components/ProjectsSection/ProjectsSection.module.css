@@ -3,4 +3,12 @@
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.75s;
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(0px);
 }
