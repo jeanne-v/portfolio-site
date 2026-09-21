@@ -34,7 +34,7 @@
 
 .has-scrolled .home-link,
 .has-scrolled .section-link {
-  color: var(--purple-bg-color);
+  color: var(--purple-bg-text-color);
 }
 
 .nav {
