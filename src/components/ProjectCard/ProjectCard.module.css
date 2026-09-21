@@ -1,0 +1,38 @@
+.card {
+  background-color: var(--secondary-bg-color);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  background-color: var(--secondary-accent-color);
+  color: var(--purple-bg-text-color);
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.title {
+  font-weight: 500;
+  margin: 16px 0 8px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.desc {
+  color: var(--secondary-text-color);
+  margin: 0 0 16px;
+}
+
+.link {
+  margin-top: auto;
+  color: var(--primary-accent-color);
+}
