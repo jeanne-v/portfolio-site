@@ -1,3 +1,4 @@
+import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 import LinksSection from "./components/LinksSection/LinksSection";
@@ -8,6 +9,7 @@ import "./App.css";
 export default function App() {
   return (
     <div>
+      <Header />
       <main>
         <Hero />
         <ProjectsSection />
