@@ -3,11 +3,12 @@ import styles from "./ContentSection.module.css";
 interface ContentSectionProps {
   children: React.ReactNode;
   style?: React.CSSProperties;
+  id?: string;
 }
 
-function ContentSection({ children, style }: ContentSectionProps) {
+function ContentSection({ children, style, id }: ContentSectionProps) {
   return (
-    <section className={styles.section} style={style}>
+    <section id={id} className={styles.section} style={style}>
       <div className={styles.content}>{children}</div>
     </section>
   );

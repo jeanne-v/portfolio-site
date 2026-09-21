@@ -6,7 +6,7 @@ import styles from "./ProjectsSection.module.css";
 
 export default function ProjectsSection() {
   return (
-    <ContentSection>
+    <ContentSection id="projects">
       <ContentSection.Title>Projects</ContentSection.Title>
       <ContentSection.SubTitle>
         Here are some of my latest projects:

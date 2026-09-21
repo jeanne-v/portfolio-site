@@ -8,7 +8,7 @@ import styles from "./LinksSection.module.css";
 
 export default function LinksSection() {
   return (
-    <ContentSection style={{ backgroundColor: "var(--secondary-bg-color)" }}>
+    <ContentSection style={{ backgroundColor: "var(--secondary-bg-color)" }} id="links">
       <ContentSection.Title>Links</ContentSection.Title>
       <ContentSection.SubTitle>Places where you can find me:</ContentSection.SubTitle>
       <div className={styles.links}>
